@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitin Sharma | UI/UX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script>
+        function vitgram(){
+            window.open('https://github.com/deathemporer/VITGram', '_blank');
+        }
+        function face(){
+            window.open('https://github.com/deathemporer/Face-detection', '_blank');
+        }
+        function notes(){
+            window.open('https://github.com/deathemporer/Notes', '_blank');
+        }
+        function url(){
+            window.open('https://github.com/deathemporer/URL-Shortener', '_blank');
+        }
+        function home(){
+            window.open('#home', '_self');
+        }
+        function about(){
+            window.open('#about', '_self');
+        }
+        function work(){
+            window.open('#projects', '_self');
+        }
+        function skills(){
+            window.open('#skills', '_self');
+        }
+        function contact(){
+            window.open('#contact', '_self');
+        }
+        function download(){
+            window.open('resume/resume.pdf', '_blank')
+        }
+    </script>
+</head>
+<body>
+    <div id="navbar">
+        <div id="div2">
+            <a href="#home"><img src="images/logo_dark.png" alt="logo"></a>
+        </div>
+        <ul>
+            <li>
+                <button id="but" onclick="home()"><a href="#home">Home</a></button>
+            <li>
+                <button id="but" onclick="about()"><a href="#about">About</a></button>
+            <li>
+                <button id="but" onclick="work()"><a href="#projects">Work</a></button>
+            <li>
+                <button id="but" onclick="skills()"><a href="#skills">Skills</a></button>
+            <li>
+                <button id="but" onclick="contact()"><a href="#contact">Contact</a></button>
+        </ul>
+    </div>
+
+    <section id="home">
+        <div id="container">
+            <div id="header">
+                <a href="#home"><img src="images/logo1.png" alt="" id="logo"></a>
+                <h1>Nitin Sharma</h1><br>
+            </div>
+            <p>Web Developer | UI/UX Designer | Programmer</p>
+            <div id="menu">
+                <button id="but2" onclick="work()"><a href="#projects">My Work</a></button>
+                <button id="but2" onclick="contact()"><a href="#contact">Contact Me</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="aboutinfo">
+            <h1>About Me</h1><br>
+            <p>I am a 2nd year IT Engineering student from VIT University, Vellore.
+                I have experience in web development, android development in various projects. I also am an intermediate coder in languages like C, C++, Python and Java. 
+                I am part of the technical team in Mozilla Firefox Club in my college and also volunteer in 5th-Pillar NGO.
+            </p><br><br>
+            <p>
+                 I love to create UI/UX for websites and apps and keep up with the latest trends. I am strong in design and integration with intuitive problem-solving skills. I also have basic knowledge of photo editing using photoshop and also can do basic video editing. I am passionate about implementing and launching new projects. Looking to start the career as an entry level software engineer with a reputed firm driven by technology.
+            </p>
+            <button id="download" onclick="download()">Check out my Resume</button>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <div id="card">
+            <img src="images/project.png" alt="">
+            <h1>VITGram</h1>
+            <p>A social media blog where you can post a picture, comment, like and follow people. Made with <b>HTML, CSS, PHP, MySQL</b></p><br>
+            <button id="but3" style="margin-top: 150px;" onclick="vitgram()"><a href="https://github.com/deathemporer/VITGram" target="_blank">Github</a></button>
+        </div>
+
+
+        <div id="card">
+            <img src="images/pr2.png" alt="">
+            <h1>Notes App</h1>
+            <p>An android app to create notes and set deadlines for them. A reminder will ring for the set deadline. Also, can edit and delete notes. Made with <b>Android Studio using Java</b></p><br>
+            <button id="but3" style="margin-top: 133px;" onclick="notes()"><a href="https://github.com/deathemporer/Notes" target="_blank">Github</a></button>
+        </div>
+
+        <div id="card">
+            <img src="images/pr3.png" alt="">
+            <h1>Face Detection</h1>
+            <p>A python script that recognises faces through the user's webcam, draws a container around the face and gives a prediction accuracy percentage. Made with <b>python</b>.</p><br>
+            <button id="but3" style="margin-top: 133px;" onclick="url()"><a href="https://github.com/deathemporer/Face-detection" target="_blank">Github</a></button>
+        </div>
+
+        <div id="card">
+            <img src="images/pr4.png" alt="">
+            <h1>URL-Shortener</h1>
+            <p>A website to input long URLs and get output with shortened version of the URLs and store them in MongoDB. Made with <b>Node.Js, HTML, CSS, JavaScript, MongoDB</b></p><br>
+            <button id="but3" style="margin-top: 133px;" onclick="face()"><a href="https://github.com/deathemporer/URL-Shortener" target="_blank">Github</a></button>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div id="skillcard">
+            <h1>Web Development</h1>
+            <div id="skillitem">
+                <div id="item">
+                    HTML
+                </div>
+                <div id="item">
+                    CSS
+                </div>
+                <div id="item">
+                    JavaScript
+                </div>
+                <div id="item">
+                    Node.Js
+                </div>
+                <div id="item">
+                    RDBMS
+                </div>
+                <div id="item">
+                    PHP
+                </div>
+                <div id="item">
+                    MongoDB
+                </div>
+            </div>
+        </div>
+
+        <div id="skillcard">
+            <h1>Programming Languages</h1>
+            <div id="skillitem">
+                <div id="item">
+                    C++
+                </div>
+                <div id="item">
+                    Java
+                </div>
+                <div id="item">
+                    Pyhton
+                </div>
+                <div id="item">
+                    C
+                </div>
+            </div>
+        </div>
+
+        <div id="skillcard">
+            <h1>Android Development</h1>
+            <div id="skillitem">
+                <div id="item">
+                    Android Studio
+                </div>
+                <div id="item">
+                    Java
+                </div>
+                <div id="item">
+                    Kotlin
+                </div>
+                <div id="item">
+                    Flutter
+                </div>
+            </div>
+        </div>
+
+        <div id="skillcard">
+            <h1>Operating Systems</h1>
+            <div id="skillitem">
+                <div id="item">
+                    Windows
+                </div>
+                <div id="item">
+                   Unix
+                </div>
+                <div id="item">
+                    MacOS
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="skillcard">
+            <h1>Design & Editing</h1>
+            <div id="skillitem" style="grid-template-columns: auto auto;">
+                <div id="item">
+                   Adobe Photoshop
+                </div>
+                <div id="item">
+                  Adobe XD
+                </div>
+                <div id="item">
+                    Adobe Preimier Pro
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <div id="grid1">
+            <h1>Reach Out</h1>
+            <button id="but5">
+                <div id="icon" style="background-color: #F4B400;">
+                    <a href="https://forms.gle/JuK5Hs278g6tJSmS9" target="_blank"><img src="svg/message.svg" alt=""></a>
+                </div>
+                <div id="text">
+                    <p>Send a Message</p>
+                </div>
+            </button>
+                <button id="but5">
+                    <div id="icon" style="background-color: #0F9D58;">
+                        <a href="callto:+917977661930" target="_blank"><img src="svg/phone.svg" alt=""></a>
+                    </div>
+                    <div id="text">
+                        <p>+91-7977661930</p>
+                    </div>
+            </button>
+        </div>
+        <div id="grid2">
+            <h1>My Socials</h1>
+            <div id="scon">
+                <ul>
+                    <li>
+                        <button id="but4" style="background-color:#6e5494;">
+                            <a href="https://github.com/deathemporer" target="_blank"><img src="svg/github.svg" alt=""></a>
+                        </button>
+                    </li>
+                    <li>
+                        <button id="but4" style="background-color: #2867B2;">
+                            <a href="https://www.linkedin.com/in/nitin-sharma-136017184/" target="_blank"><img src="svg/linkedin.svg" alt="" ></a>
+                        </button>
+                    </li>
+                    <li>
+                        <button id="but4" style="background-color: #DB4437;">
+                            <a href="mailto:nitin.sh125@gmail.com" target="_blank"><img src="svg/mail.svg" alt=""></a>
+                        </button>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
